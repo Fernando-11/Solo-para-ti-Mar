@@ -1,4 +1,4 @@
-const FECHA_CORRECTA = { dia: 13, mes: 11, anio: 96 };
+const FECHA_CORRECTA = { dia: 10, mes: 04, anio: 94 };
 const RANGO = { dia: { min: 0, max: 31 }, mes: { min: 0, max: 12 }, anio: { min: 0, max: 99 } };
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -8,7 +8,7 @@ const recuerdos = $('#recuerdos');
 const closeBtn = $('#close-btn');
 
 // Fecha de Nacimiento
-const FECHA_NACIMIENTO = new Date(1996, 10, 13, 0, 0, 0);
+const FECHA_NACIMIENTO = new Date(1994,3, 10, 0, 0, 0);
 
 const state = { dia: 0, mes: 0, anio: 0 };
 
